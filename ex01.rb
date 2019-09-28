@@ -4,5 +4,5 @@ def plus(sales)
   puts sales.values.inject(:+)
 end
 
-plus
+plus(sales)
 
